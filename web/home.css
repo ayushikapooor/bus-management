@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+header
+{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bus.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.main-nav
+{
+    position: relative;
+    left: 450px;
+    top:20px;
+    list-style: none;
+    margin-top: 1px;
+}
+
+.main-nav li
+{
+ display: inline-block;
+ 
+}
+
+.main-nav li a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;  
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: relative;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    margin-left:300px;
+}
+
+.button
+{
+ margin-top: 60px;
+ margin-left: 380px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 15px 90px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+ font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "roboto", sans-serif;
+}
+
+
+.btn-one:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.btn-three
+{
+ font-family: "Roboto", sans-serif;
+}
+
+.btn-three:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
